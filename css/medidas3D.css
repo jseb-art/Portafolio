@@ -1,0 +1,199 @@
+
+@media screen {
+  .Texto{
+  font-size: 99%;
+  margin-left:.5%; 
+  margin-right:.5%;
+  margin-top: -10%;
+  }
+
+.imagecaja{
+  width: 100%;
+}
+
+.TituloVi{
+  width:35%;
+  margin-left: 30%;
+  margin-top: 8%;
+  
+}
+
+
+
+}
+
+
+
+@media  (max-width: 1399px) {
+
+  .Texto{
+
+    font-size: 84%;
+  }
+  .navbar-brand{
+
+    width: 3%;
+  }
+
+
+
+}
+
+@media  (max-width: 1199px) {
+
+  .Texto{
+    margin-top: -11%;
+    font-size: 70%;
+  }
+
+  .card-text{
+    font-size: 80%;
+  }
+  
+  .card-title{
+  
+    margin-top:-2%;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+ 
+  .Texto{
+    margin-top: -8%;
+    font-size: 49%;
+  }
+  
+  .navbar-brand{
+
+    width: 4%;
+  }
+
+
+  .card-text{
+    font-size: 65%;
+  }
+  
+  .card-title{
+  
+    margin-top:-6%;
+    font-size:90%;
+  }
+
+
+
+}
+
+@media  (max-width: 768px) {
+
+ 
+
+  .navbar-brand{
+
+    width: 6%;
+  }
+
+
+  .card-text{
+    font-size: 80%;
+  }
+  
+  .card-title{
+  
+    margin-top: -2%;
+    font-size:110%;
+  }
+
+  
+  .Texto{
+    margin-top: -8%;
+    font-size: 75%;
+  }
+
+
+}
+
+@media  (max-width: 441px) {
+
+ 
+  .Texto{
+    margin-top: -12%;
+    font-size: 60%;
+  }
+  .navbar-brand{
+
+    width: 7%;
+  }
+
+  .titulo {
+
+    font-size: 310%;
+
+  }
+  
+  .card-text{
+    font-size: 80%;
+  }
+  
+  .card-title{
+  
+    margin-top: -4%;
+    font-size:110%;
+  }
+}
+
+@media  (max-width: 380px) {
+
+ 
+  .Texto{
+
+    font-size: 53%;
+  }
+
+  .navbar-brand{
+
+    width: 8%;
+  }
+
+  .card-text{
+    font-size: 70%;
+  }
+  
+  .card-title{
+  
+    margin-top: -6%;
+    font-size:90%;
+  }
+
+
+}
+
+@media  (max-width: 321px) {
+
+ 
+  .Texto{
+    margin-top: -13%;
+    font-size: 45%;
+  }
+
+
+
+   .TituloVi{
+    width:80%;
+  }
+
+  .card-text{
+    font-size: 55%;
+    margin-top: -4%;;
+  }
+  
+  .card-title{
+  
+    margin-top: -8%;
+    font-size:85%;
+  }
+}
+
+
