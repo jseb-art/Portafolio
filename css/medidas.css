@@ -1,0 +1,26 @@
+@media  (max-width: 575px) {
+
+    .col-sm {
+
+
+        width: 30%;
+      
+      }
+
+      .titulo {
+
+
+        font-size: 300%;
+ 
+      }
+
+      .button {
+
+
+        width: 60%;
+
+      }
+
+
+}
+

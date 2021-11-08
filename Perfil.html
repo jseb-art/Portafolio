@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Johan Vargas | Perfil</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+<link href="css/cover.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/medidasperfil.css">
+  </head>
+  <body>
+    
+<main>
+
+  <div id="mySidenav" class="sidenav">
+
+      <img src="img/MenuCaja.png" alt="..." width="100%" style="padding-top: 1%;">
+      <div class="card-img-overlay" width="100%">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Inicio</a>
+        <a href="Perfil.html">Perfil</a>
+        <a href="Portafolio.html">Portafolio</a>
+      </div>
+  </div>
+  
+
+
+
+  <nav class="navbar" >
+  <div class="container-fluid">
+      <a href="index.html"><img class="navbar-brand" src="img/AtrasBotón.png" alt="Atras" width="50" > </a> 
+      <div>
+
+      </div>
+      <div>
+        <div id="main">
+          <span style="font-size:350%;cursor:pointer; color:#86B2CF; margin-left: -5%; margin-top: -2%; position:fixed;" onclick="openNav()">&#9776;</span>
+        </div>
+  </div> 
+  </nav>
+
+
+  <div class="album py-5">
+    <div class="container">
+      <div>
+        <h2 class="titulo">Johan Vargas</h2>
+        <h2 class="subtitulo">Ingeniero Multimedia</h2>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card bg-transparent" style="margin:5%">
+            <div class="card-body">
+              <img class="imagecaja" src="img/CajaTexto.png"  >
+              <div class="card-img-overlay"  style="margin-top:25%; margin-left:10%; margin-right:10%;">
+                <p class="Texto">Soy Johan Sebastian Vargas Sanchez, estudiante de Ingenieria Multimedia en la Universidad de San Buenaventura. Mis principales enfoques son el area audiovisual, tanto en producción como post-producción, además del diseño de 
+                  Videojuegos. 
+                  Me considero una persona  creativa y apasionada por aprender temas nuevos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-transparent" style="margin-top: 10%; margin-left:20%" height="50%" >
+            <img src="img/CajaFoto.png" alt="..." width="75%">
+            <div class="card-img-overlay" style="margin-top:1%; margin-left:2%; margin-right:2%;">
+              
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  
+ 
+
+<div class="container py-4">
+
+    
+
+    
+
+
+ <div class="col-md-4" position="center" style="margin:0px auto;">
+     <img class="button" src="img/Contacto.png" width="70%" style="margin-left: 15%;" >
+
+        
+      <div class="container">
+        <form>
+          <div class="mb-4">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre" >
+          </div>
+          <div class="mb-4">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo" >
+          </div>
+          <div class="mb-4">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ciudad" >
+          </div>
+          <div class="mb-4">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Asunto" >
+          </div>
+          <div class="mb-4"></div>
+          <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7"></textarea>
+          </div>
+          <div class="mb-4"></div>
+          <button type="submit" class="btn bg-transparent"><img class="button" src="img/EnviarBotón.png" alt="Perfil" width="60%"></button>
+          </div>
+
+        </form>
+        
+      </div>
+</div>   
+  </div>
+
+  <footer class="mt-auto text-white-50" style="padding-left: 40%; position:absolute;">
+    <p> ©Johan Vargas | Contacto: jsebas.portafolio@gmail.com</p>
+  </footer>
+
+</main>  
+
+<script src="js/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+
+  </body>
+
+
+
+</html>
