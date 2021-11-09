@@ -1,10 +1,10 @@
 
 @media screen {
   .Texto{
-  font-size: 99%;
+  font-size: 110%;
   margin-left:.5%; 
   margin-right:.5%;
-  margin-top: -10%;
+  margin-top: -6%;
   }
 
 .imagecaja{
@@ -27,7 +27,7 @@
 
   .Texto{
 
-    font-size: 84%;
+    font-size: 95%;
   }
   .navbar-brand{
 
@@ -41,8 +41,8 @@
 @media  (max-width: 1199px) {
 
   .Texto{
-    margin-top: -11%;
-    font-size: 70%;
+    margin-top: -8%;
+    font-size: 80%;
   }
 
 
@@ -53,8 +53,8 @@
 
  
   .Texto{
-    margin-top: -8%;
-    font-size: 49%;
+    margin-top: -10%;
+    font-size: 58%;
   }
   
   .navbar-brand{
@@ -96,8 +96,8 @@
   }
   
   .Texto{
-    margin-top: -8%;
-    font-size: 75%;
+    margin-top: -11%;
+    font-size:78%;
   }
 
 
@@ -107,8 +107,8 @@
 
  
   .Texto{
-    margin-top: -12%;
-    font-size: 60%;
+    margin-top: -9%;
+    font-size: 70%;
   }
   .navbar-brand{
 
@@ -139,7 +139,7 @@
  
   .Texto{
 
-    font-size: 53%;
+    font-size: 50%;
   }
 
   .navbar-brand{
@@ -157,7 +157,7 @@
  
   .Texto{
     margin-top: -13%;
-    font-size: 45%;
+    font-size: 46%;
   }
 
 
@@ -168,17 +168,6 @@
 
 }
 
-@media  (max-width: 321px) {
 
- 
-  .Texto{
-    margin-top: -13%;
-    font-size: 36%;
-  }
-
-
-
-
-}
 
 
