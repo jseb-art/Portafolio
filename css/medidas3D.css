@@ -1,10 +1,23 @@
 
+.hyper {
+  text-align: center;
+  color: #86B2CF;
+  font-family: Inter;
+  font-size: 80%;
+  font-weight: Bold;
+}
+
+.card-title{
+
+  margin-top: -5%;
+}
+
 @media screen {
   .Texto{
   font-size: 99%;
   margin-left:.5%; 
   margin-right:.5%;
-  margin-top: -10%;
+  margin-top: -12%;
   }
 
 .imagecaja{
